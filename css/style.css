@@ -6,35 +6,69 @@ body{
     width: 100vw;
     padding: 0;
     margin: 0;
-
+    flex-direction: column;
+}
+.cajadearriba{
+    background-color: white;
+    height: 2em;
+    width: 30em;
+}
+.izquierda1{
+    background-color: white;
+    height: 2em;
+    width: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.botoncito1{
+    background-color: black;
+    height: 3px;
+    width: 10px;
+    border-radius: 5px 5px 0 0;
+}
+.botoncito2{
+    background-color: black;
+    height: 8px;
+    width: 25px;
+    border-radius: 9px 9px 0 0;
 }
 .cajaPadre{
-    border-radius: 0 0 60px 0;
+    border-radius: 20px 20px 60px 20px;
     display:flex;
-    height: 40em;
+    height: 41em;
     width: 30em;
     background-color: rgb(62, 128, 0);
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-
-
-
 .pantalla{
     background-color: black;
 
     height: 20em;
-    width: 23.5em;
+    width: 23em;
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 0 0 60px 0;
+    justify-content: left;
+    border-radius: 20px 20px 60px 20px;
 }
-
-
-
+.bordebateria{
+    background-color: black;
+    height: 17em;
+    width: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.luzbateria{
+    background-color: red;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50% 50% 50% 50%;
+}
 .pantalla2{
     background-color: darkorange;
 
@@ -42,39 +76,31 @@ body{
     width: 17em;
     display: flex;
     justify-content: center;
-
 }
 img{
     max-width: 17em;
     max-height: 17em;
     
 }
-
 .mando{
     background-color: crimson;
-
     height: 10em;
     width: 26em;
-
     display: flex;
     flex-direction: row;
 }
 .parteizquierda{
     background-color: rgb(62, 128, 0);
-
     height: 10em;
     width: 13em;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .crucetas2{
     background-color: rgba(0, 0, 0, 0.614);
-
     height: 2.5em;
     width: 7em;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,282 +108,215 @@ img{
 }
 .crucetas{
     background-color: rgba(0, 0, 0, 0.614);
-
     height: 7em;
     width: 2.5em;
-
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20% 20% 20% 20%;
 }
 .circulito{
-    background-color:grey;
-
+    background-color: rgba(128, 128, 128, 0.473);
     height: 2em;
     width: 2em;
-
-
     border-radius: 50% 50% 50% 50%;
 }
-
-
-
 .partederecha{
     background-color: rgb(62, 128, 0);
-
     height: 10em;
     width: 13em;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .bordebotones{
     background-color: rgba(0, 0, 0, 0.414);
-
     height: 3em;
     width: 9.5em;
-
     border-radius: 30px 30px 30px 30px;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
     transform: rotate(-25deg);
-
-
 }
 .boton1{
     background-color: rgba(0, 0, 0, 0.700);
-
     height: 3em;
     width: 3em;
-
     border-radius: 50% 50% 50% 50%;
 }
 .boton2{
     background-color: rgba(0, 0, 0, 0.700);
-
     height: 3em;
     width: 3em;
-
     border-radius: 50% 50% 50% 50%;
 }
-
-
-
-
-
-
 .partedeabajo{
     background-color: cyan;
-
     height: 5em;
     width: 26em;
-
     display: flex;
     align-items: center;
-
-
 }
 .izquierda{
     background-color: rgb(62, 128, 0);
-
     height: 5em;
     width: 8em;
 }
-
 .centro{
     background-color: rgb(62, 128, 0);
-
     height: 5em;
     width: 9em;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .bordebotones2{
     background-color: rgb(62, 128, 0);
-
     height: 4em;
     width: 6em;
-
     display:flex;
     align-items: center;
     justify-content: space-between;
 }
 .botonselect{
     background-color: rgba(0, 0, 0, 0.700);
-
     height: 1em;
     width: 2.5em;
     border-radius: 20px 20px 20px 20px;
 }
 .botonstart{
     background-color: rgba(0, 0, 0, 0.700);
-
     height: 1em;
     width: 2.5em;
     border-radius: 20px 20px 20px 20px;
 }
-
-
 .derecha{
     background-color: rgb(62, 128, 0);
-
     height: 5em;
     width: 9em;
-
     align-items: center;
     justify-content: end;
-        
     display: grid;
     grid-template-columns: min-content min-content min-content min-content min-content min-content min-content min-content;
     
 }
-
 .circulin1{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
-
-    
-    
 }
 .circulin2{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin3{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin4{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin5{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin6{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin7{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin8{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin9{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin10{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin11{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin12{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin13{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin14{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin15{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin16{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin17{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin18{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin19{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
 }
 .circulin20{
     background-color: black;
-
     height: 0.5em;
     width: 0.5em;
     border-radius: 50% 50% 50% 50%;
